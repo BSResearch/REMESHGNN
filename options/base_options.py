@@ -31,10 +31,10 @@ class BaseOptions:
                                       'HyNet_hidden_size')
 
         self.parser.add_argument('--MeshConv',
-                                default=[(10, 5, 64, 64, 64, 64, True, True),
-                                          (70, 64, 64, 64, 64, 64, True, True),
-                                          (70, 64, 64, 64, 64, 64, True, True),
-                                          (70, 64, 64, 64, 64, 64, True, True),
+                                default=[(10, 5, 64, 64, 64, 64, True, False),
+                                          (70, 64, 64, 64, 64, 64, True, False),
+                                          (70, 64, 64, 64, 64, 64, True, False),
+                                          (70, 64, 64, 64, 64, 64, True, False),
                                           (70, 64, 64, 64, 64, 64, True, False),
                                           (70, 64, 64, 64, 64, 64, True, False)
                                           # (70, 64, 128, 64, 64, 128, True, False),
